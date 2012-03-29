@@ -3,9 +3,9 @@ import os
 
 version = '0.1'
 
-setup(name='upiqsite.projects',
+setup(name='upiqsite.opip',
       version=version,
-      description="Policy product for projects.upiq.org site, customizing QI Teamspace and Plone 4.",
+      description="Policy product for projects.oregon-pip.org site, customizing QI Teamspace and Plone 4.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
@@ -24,6 +24,13 @@ setup(name='upiqsite.projects',
       install_requires=[
           'setuptools',
           'uu.qiext',
+          'uu.qiforms',
+          'uu.formlibrary',
+          'uu.smartdate',
+          'Solgema.fullcalendar',
+          'uu.inviting',
+          'uu.staticmap',
+          'uu.chart',
           'Products.qi',
           'Products.CMFPlone',
           'plone.browserlayer',

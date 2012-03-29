@@ -18,9 +18,9 @@
 
   <!-- site style sheet -->
   <browser:resource
-    name="upiq_projects_site.css"
-    file="upiq_projects_site.css"
-    layer="upiqsite.projects.interfaces.IUPIQProjectsSiteProductLayer"
+    name="opip_site.css"
+    file="opip_site.css"
+    layer="upiqsite.opip.interfaces.IOPIPSiteProductLayer"
     />
 
 </configure>
