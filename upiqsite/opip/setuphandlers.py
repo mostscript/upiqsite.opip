@@ -5,7 +5,7 @@ import os
 
 from Products.CMFCore.utils import getToolByName
 
-from Products.qi.util.config import PathConfig
+from config import PathConfig
 
 
 logger = logging.getLogger('')
