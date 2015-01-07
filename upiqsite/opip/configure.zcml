@@ -8,9 +8,6 @@
   <!-- Include configuration for dependencies listed in setup.py -->
   <includeDependencies package="." />
 
-  <!-- Grok package: initialise schema interfaces, content classes -->
-  <grok:grok package="." />
-
   <five:registerPackage package="." initialize=".zope2.initialize" />
 
   <!-- include Generic Setup extension profiles -->
